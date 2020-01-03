@@ -220,7 +220,7 @@
   padding-bottom: 1rem;
 } 
 
-@media (min-width: 992px) { 
+/* @media (min-width: 992px) { 
   .about-tech-img img {
     height: 200px;
     width: 200px;
@@ -239,7 +239,7 @@
     padding-bottom: 1rem;
   } 
   
-}
+} */
 
 
 /* .about-tech-row-1 {
