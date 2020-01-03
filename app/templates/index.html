@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sufian Mushtaq</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{{ url_for('static', filename='css/custom.css') }}" rel="stylesheet">
+
+ 
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Logo</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <!-- <h1 class="mx-auto my-0 text-uppercase" id="home-text">I AM SUFIAN</h1> -->
+        <div class="main-text-container">
+          <h1>
+            I AM SUFIAN MUSHTAQ
+          </h1>
+        </div>
+        <h2>
+          I like <span class="typed" ></span>
+        </h2>
+        
+        <a href="#about" class="btn btn-primary js-scroll-trigger">Click Here to Know More!</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="about-section text-center">
+    <div class="container about-card shadow">
+      <h1 class="about-text text-dark">ABOUT ME</h1>
+      <div class="container about-container">
+        
+    
+        <div class="row">
+        
+          <div class="col-lg-6 about-img">
+              <img src="{{ url_for('static', filename='img/placeholder.jpg') }}" alt="" class="rounded"/>
+          </div>
+
+          <div class="col-lg-6 about-skills" >    
+            <div style="padding-top: 1rem; padding-bottom: 1.5rem;">    
+              <h2 class="text-dark about-skills-text">My Skills</h2>
+              <div class="skills-progress-bar">
+                <div class="progress" style="height: 25px;">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                    90%
+                  </div>
+                  <div class="skills-lang">JAVA</div>
+                </div>
+              </div>
+              <div class="skills-progress-bar">
+                <div class="progress" style="height: 25px;">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                    70%
+                  </div>
+                  <div class="skills-lang">PYTHON</div>
+                </div>
+              </div>
+              <div class="skills-progress-bar">
+                <div class="progress" style="height: 25px;">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 65%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                    65%
+                  </div>
+                  <div class="skills-lang">C</div>
+                </div>
+              </div>
+              <div class="skills-progress-bar">
+                <div class="progress" style="height: 25px;">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                    60%
+                  </div>
+                  <div class="skills-lang">JAVASCRIPT</div>
+                </div>
+              </div>
+              <div class="skills-progress-bar">
+                <div class="progress" style="height: 25px;">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                    80%
+                  </div>
+                  <div class="skills-lang">HTML</div>
+                </div>
+              </div>
+              <div class="skills-progress-bar">
+                <div class="progress" style="height: 25px;">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                    85%
+                  </div>
+                  <div class="skills-lang">MYSQL</div>
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <p style="padding-right: 5rem; padding-left: 5rem; margin-bottom: 0.5rem;">
+              I am currently a Sophomore at University of Rochester pursuing a major in Computer Science and Business. I aspire to be a full-stack developer with a greater expertise in back-end technologies. 
+              I have largely worked on projects with a back-end written in Flask and am very fond of databases. 
+              In my free time I like to play guitar and I’m currently taking piano lessons at the Eastman School of Music. The complex, flexible, and the expressive nature of music can be compared to that of Computer Science. Both these fields have the potential to be experimented with which is why I fell in love with them. I also occasionally enjoy photography and travelling with my friends.
+            </p>
+          </div>
+        </div>
+
+        <div class="row about-tech">
+          <div class="col-lg-12" style="padding-left: 2rem; padding-right: 2rem;">
+            <div class="row">
+              <div class="col-lg-12">
+                <h2 style="text-align: center; margin: 1rem; margin-top: 1.5rem;">My Tech Stack</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 about-tech-img">
+                <img src="{{ url_for('static', filename='img/python.png') }}" alt="" class="rounded"/>
+              </div>
+              <div class="col-lg-3 about-tech-img">
+                <img src="{{ url_for('static', filename='img/flask.png') }}" alt="" class="rounded"/>
+              </div>
+              <div class="col-lg-3 about-tech-img">
+                <img src="{{ url_for('static', filename='img/gunicorn.png') }}" alt="" class="rounded"/>
+              </div>
+              <div class="col-lg-3 about-tech-img">
+                <img src="{{ url_for('static', filename='img/nginx.png') }}" alt="" class="rounded"/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 about-tech-img">
+                <img src="{{ url_for('static', filename='img/html.png') }}" alt="" class="rounded"/>
+              </div>
+              <div class="col-lg-3 about-tech-img">
+                <img src="{{ url_for('static', filename='img/css.png') }}" alt="" class="rounded"/>
+              </div>
+              <div class="col-lg-3 about-tech-img">
+                <img src="{{ url_for('static', filename='img/js.png') }}" alt="" class="rounded"/>
+              </div>
+              <div class="col-lg-3 about-tech-img">
+                <img src="{{ url_for('static', filename='img/mysql.png') }}" alt="" class="rounded"/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+  </section>
+
+  
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container projects-container shadow">
+      <h1 class="projects-text">MY PROJECTS</h1>
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7 project-img">
+          <a href="https://github.com/sufian27/shortest-path-map" target="_blank"><img class="img-fluid mb-3 mb-lg-0" src="{{ url_for('static', filename='img/shortest-path-map.jpg') }}" alt="featured project"></a>
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <a href="https://github.com/sufian27/shortest-path-map" target="_blank"><h4>Shortest Path Map </a><span id="star">&#9733;</span></h4></a>
+            <p class="text-black-50 mb-0">I used Java to implement Dijkstra's algorithm to compute the shortest path between two points on a map. The graphics are implemented using Java's swing library. </p>
+          </div>
+        </div>
+      </div>
+      <div class="projects-normal">
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 project">
+          <div class="col-lg-6 project-img">
+            <a href="https://github.com/sufian27/my-social-network" target="_blank"><img class="img-fluid" src="{{ url_for('static', filename='img/my-social-network.jpg') }}" alt=""></a>
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <a href="https://github.com/sufian27/my-social-network" target="_blank"><h4 class="text-white">My Social Network</h4></a>
+                  <p class="mb-0 text-white-50">I used Flask and SQLite to implement INSERT, DELETE, UPDATE, and SELECT functionality of a database.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters project">
+          <div class="col-lg-6 project-img">
+            <a href="https://github.com/sufian27/recursive-descent-parser" target="_blank"><img class="img-fluid" src="{{ url_for('static', filename='img/recursion.png') }}" alt=""></a>
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <a href="https://github.com/sufian27/recursive-descent-parser" target="_blank"><h4 class="text-white">Recursive Descent Parser</h4></a>
+                  <p class="mb-0 text-white-50"> 
+                    The project is a recursive descent parser written in C for a grammar that defines the language of Regular Expressions. 
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Three Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 project">
+          <div class="col-lg-6 project-img">
+            <a href="https://github.com/sufian27/lob-pong" target="_blank"><img class="img-fluid" src="{{ url_for('static', filename='img/lob-pong.jpg') }}" alt=""></a>
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <a href="https://github.com/sufian27/lob-pong" target="_blank"><h4 class="text-white">Lob Pong</h4></a>
+                  <p class="mb-0 text-white-50">This is a game that I made using Java and its swing library. It demonstrates some cool event-driven programming.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Four Row -->
+        <div class="row justify-content-center no-gutters project">
+          <div class="col-lg-6 project-img">
+            <a href="https://github.com/sufian27/weather-app" target="_blank"><img class="img-fluid" src="{{ url_for('static', filename='img/weather-app.jpg') }}" alt=""></a>
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <a href="https://github.com/sufian27/weather-app" target="_blank"><h4 class="text-white">Weather App</h4></a>
+                  <p class="mb-0 text-white-50"> 
+                    This project is a basic weather app which demonstrates the communication between the client side and the server side using Ajax.  
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Signup Section -->
+  <!-- <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <h1 class="contact-text">CONTACT ME</h1>
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">500 Wilson Blvd, Rochesher NY 14627</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="#">sufianmushtaq@gmail.com</a>
+              </div>
+              <div class="small text-black-50">
+                <a href="#">smushtaq@u.rochester.edu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">+1 (585) 503-6908</div>
+              <div class="small text-black-50">+92 323 4022504</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="https://www.facebook.com/sufian.mushtaq" target="_blank" class="fab fa-facebook-f"></a>
+        <a href="https://github.com/sufian27" target="_blank" class="fab fa-github"></a>
+        <a href="https://www.linkedin.com/in/sufian-mushtaq-247b50178" target="_blank" class="fab fa-linkedin"></a>
+      </div>
+      <br>
+      
+    </div>
+
+  </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Designed by Sufian Mushtaq
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+  <!-- Typed.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+
+  
+  <!-- Custom scripts for this template -->
+  <script src="{{ url_for('static', filename='js/grayscale.js') }}"></script>
+
+
+  <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+ 
+</body>
+
+</html>
