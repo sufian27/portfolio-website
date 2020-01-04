@@ -153,6 +153,10 @@
   margin: 0px;
 }
 
+/* .masthead .sufian-text {
+
+} */
+
 .main-text-container {
   padding: 0.5rem;
   border: rgb(79, 131, 127) solid 3px;
@@ -251,9 +255,7 @@
 .about-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  /* background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9), rgba(0, 63, 145, 0.8)); */
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9), rgba(79, 131, 127, 0.9));
-  
+  background: linear-gradient(to bottom, #000000 0%, rgba(22, 22, 22, 0.9), rgba(79, 131, 127, 0.9));
 }
 
 .about-text {
@@ -288,6 +290,7 @@
   padding-bottom: 1rem;
 } 
 
+/* For animation, disabled for now */
 /* @media (min-width: 992px) { 
   .about-tech-img img {
     height: 200px;
@@ -396,10 +399,8 @@
 
 .projects-section {
   padding: 5rem 0;
-  /* background: linear-gradient(to bottom,  rgba(0, 63, 145, 0.6)  0%, #ffffff,rgba(79, 131, 127, 0.6)); */
-  /* background: linear-gradient(to bottom,  rgba(0, 63, 145, 0.79)  0%, #ffffff,rgba(50, 50, 50, 1.0)), url("../img/project-bg.jpg") fixed; */
   background: linear-gradient(to bottom,  rgba(79, 131, 127, 0.9)  0%, #ffffff,rgba(50, 50, 50, 1.0)), url("../img/project-bg.jpg") fixed;
-  
+
 }
 
 .projects-text {
@@ -479,7 +480,7 @@
 
 .contact-section {
   padding: 5rem;
-  background: url("../img/contact.png");
+  background: linear-gradient(to bottom,  rgba(50, 50, 50, 0.8)  0%,rgba(255, 255, 255, 0.5) 50%,rgba(50, 50, 50, 1.0) 100%), url("../img/contact-bg.png") fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
