@@ -85,29 +85,86 @@
   }
 }
 
-.masthead {
+/* .masthead {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/home-bg-2.jpg");
+
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
-
-/* .masthead h1 {
-  font-family: 'Varela Round';
-  
-  letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 } */
 
+.masthead {
+  /* position: relative; */
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  /* min-height: 35rem;
+  padding: 15rem 0; */
+  /* background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%); */
+  /* background: blue; */
+  background: black;
+  
+}
+
+.masthead .container {
+  position: absolute;
+  top: 35%;
+  width: 50vw;
+  max-width: 100vw;
+  left: 20%;
+  right: 20%;
+}
+
+@media (max-width: 992px) {
+  .masthead .container {
+    position: absolute;
+    top: 35%;
+    width: 60vw;
+    max-width: 100vw;
+    left: 10%;
+    right: 10%;
+  }
+}
+
+@media (max-width: 450px) {
+  .masthead .container {
+    position: absolute;
+    top: 35%;
+    width: 80vw;
+    max-width: 100vw;
+    left: 10%;
+    right: 10%;
+  }
+}
+
 .masthead h2 {
+  font-family: 'Varela Round';
+  -webkit-text-fill-color: whitesmoke;
+}
+
+.masthead h1 {
+  font-family: 'Varela Round';
+  -webkit-text-fill-color: whitesmoke;
+  margin: 0px;
+}
+
+.main-text-container {
+  padding: 0.5rem;
+  border: rgb(79, 131, 127) solid 3px;
+  margin-bottom: 1.5rem;
+}
+
+.typewriter-container {
+  margin-bottom: 2rem;
+}
+
+/* .masthead h2 {
   font-family: 'Varela Round';
   -webkit-text-fill-color: whitesmoke;
   margin-bottom: 3rem;
@@ -123,9 +180,9 @@
   padding: 0.5rem;
   border: rgb(79, 131, 127) solid 3px;
   margin-bottom: 2rem;
-}
+} */
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .masthead {
     background: url("../img/home-bg-2.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -135,7 +192,7 @@
     height: 100%;
     overflow: hidden;
   }
-}
+} */
 
 
 /* @media (min-width: 768px) {

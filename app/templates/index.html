@@ -51,23 +51,45 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <!-- <h1 class="mx-auto my-0 text-uppercase" id="home-text">I AM SUFIAN</h1> -->
+  <!-- <header class="masthead" id="particles-js">
+      <div class="container d-flex h-100 align-items-center home-middle">
+        <div class="mx-auto text-center">
+          <div class="main-text-container">
+            <h1>
+              I AM SUFIAN MUSHTAQ
+            </h1>
+          </div>
+          <h2>
+            I like <span class="typed" ></span>
+          </h2>
+          
+          <a href="#about" class="btn btn-primary js-scroll-trigger">Click Here to Know More!</a>
+        </div>
+      </div>
+    
+  </header> -->
+
+  <header class="masthead" id="particles-js">
+      <div class="container align-items-center">
         <div class="main-text-container">
           <h1>
             I AM SUFIAN MUSHTAQ
           </h1>
         </div>
-        <h2>
-          I like <span class="typed" ></span>
-        </h2>
+        <div class="typewriter-container">
+          <h2>
+            I like <span class="typed" ></span>
+          </h2>
+        </div>
         
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Click Here to Know More!</a>
+        <div class="btn-container">
+          <a href="#about" class="btn btn-primary js-scroll-trigger">Click Here to Know More!</a>
+        </div>
       </div>
-    </div>
-  </header>
+</header>
+
+
+  
 
   <section id="about" class="about-section text-center">
     <div class="container about-card shadow">
@@ -407,7 +429,15 @@
 
 
   <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
- 
+
+  <script src="{{ url_for('static', filename='vendor/particles/particles.js') }}"></script>
+
+  <script>
+    particlesJS.load('particles-js', 'particles.json', 
+    function(){
+      console.log("particles.json loaded")
+    })
+  </script>
 </body>
 
 </html>
