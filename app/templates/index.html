@@ -13,6 +13,7 @@
   <!-- Bootstrap core CSS -->
   <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
+  <link rel="icon" href="{{ url_for('static', filename='img/logo.png') }}">
   <!-- Custom fonts for this template -->
   <link href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
@@ -28,7 +29,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Logo</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img height="40" width="40" src="{{ url_for('static', filename='img/logo.png') }}" alt=""></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -226,7 +227,6 @@
             </div>
           </div>
         </div>
-
         <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters project">
           <div class="col-lg-6 project-img">
@@ -350,10 +350,10 @@
               <h4 class="text-uppercase m-0">Email</h4>
               <hr class="my-4">
               <div class="small text-black-50">
-                <a href="#">sufianmushtaq@gmail.com</a>
+                <a href="mailto:sufianmushtaq@gmail.com">sufianmushtaq@gmail.com</a>
               </div>
               <div class="small text-black-50">
-                <a href="#">smushtaq@u.rochester.edu</a>
+                <a href="mailto:smushtaq@u.rochester.edu">smushtaq@u.rochester.edu</a>
               </div>
             </div>
           </div>
