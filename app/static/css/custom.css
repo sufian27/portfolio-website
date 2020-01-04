@@ -109,7 +109,6 @@
   /* background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%); */
   /* background: blue; */
   background: black;
-  
 }
 
 .masthead .container {
@@ -473,14 +472,14 @@
 .contact-text {
   padding-bottom: 1.5rem;
   text-align: center;
-  color: whitesmoke;
+
   border-bottom: 0.25rem solid #64a19d;
   
 }
 
 .contact-section {
   padding: 5rem;
-  background: url("../img/contact-bg.jpg");
+  background: url("../img/contact.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
