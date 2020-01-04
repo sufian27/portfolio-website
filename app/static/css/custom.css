@@ -126,7 +126,7 @@
 }
 
 @media (min-width: 992px) {
-  body:before {
+    .masthead {
     content: "";
     display: block;
     position: fixed;
